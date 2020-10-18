@@ -72,10 +72,16 @@ apt install -y netcat
 apt install -y hashcat
 apt install -y john
 apt install -y hydra
-apt install -y metasploit
+apt install -y metasploit-framework
 apt install -y hashid
 apt install -y sqlmap
 apt install -y crunch
+apt install -y nmap
+
+
+wget https://github.com/zaproxy/zaproxy/releases/download/v2.9.0/ZAP_2_9_0.sh
+bash ZAP_2_9_0.sh
+rm ZAP_2_9_0.sh
 
 mkdir MaskBinary
 cd MaskBinary
