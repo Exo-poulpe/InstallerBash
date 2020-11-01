@@ -47,6 +47,10 @@ apt install -y mc
 apt install -y cmus
 apt install -y bashtop
 
+# Fun
+# https://github.com/bartobri/no-more-secrets
+# https://github.com/GitSquared/edex-ui
+
 
 if [ $1 -z ];then
 echo "Which install you want ?"
