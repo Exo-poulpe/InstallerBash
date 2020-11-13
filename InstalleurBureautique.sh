@@ -48,6 +48,7 @@ apt install -y ranger
 apt install -y mc
 apt install -y cmus
 apt install -y bashtop
+apt install -y lynx
 
 # Fun
 # https://github.com/bartobri/no-more-secrets
