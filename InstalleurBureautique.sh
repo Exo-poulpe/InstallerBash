@@ -26,6 +26,8 @@ apt dist-upgrade -y
 
 # Install base
 echo "Base install"
+apt install -y python3-pip
+pip3 install ueberzug
 apt install -y nmap
 apt install -y vlc
 apt install -y git
@@ -97,6 +99,8 @@ cd ..
 cd ..
 fi
 
+ranger --copy-config=all
 echo "Install finish"
+echo "Edit .config/ranger/rc.conf 'set preview image true' 'set preview_image_method ueberzug'"
 
 
