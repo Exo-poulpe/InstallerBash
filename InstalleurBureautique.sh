@@ -49,6 +49,7 @@ apt install -y mc
 apt install -y cmus
 apt install -y bashtop
 apt install -y lynx
+apt install -y libmtp-common gvfs-backends gvfs-fuse
 
 # Fun
 # https://github.com/bartobri/no-more-secrets
