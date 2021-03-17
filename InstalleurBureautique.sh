@@ -33,7 +33,9 @@ apt install -y vlc
 apt install -y git
 apt install -y htop
 apt install -y vim
+apt install -y neovim
 apt install -y redshift
+apt install -x qbittorrent
 apt install -y wget
 apt install -y gufw
 apt install -y qcalc
@@ -42,12 +44,12 @@ apt install -y firefox-esr
 apt install -y vscodium
 apt install -y atril
 apt install -y ssh
+apt install -y sshfs
 apt install -y pyp
 apt install -y curl
 apt install -y ranger
 apt install -y mc
 apt install -y cmus
-apt install -y bashtop
 apt install -y lynx
 apt install -y libmtp-common gvfs-backends gvfs-fuse
 
