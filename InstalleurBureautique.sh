@@ -51,6 +51,7 @@ apt install -y ranger
 apt install -y mc
 apt install -y cmus
 apt install -y lynx
+apt install -y lynis
 apt install -y libmtp-common gvfs-backends gvfs-fuse
 
 # Fun
