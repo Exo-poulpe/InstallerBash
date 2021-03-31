@@ -28,31 +28,32 @@ apt dist-upgrade -y
 echo "Base install"
 apt install -y python3-pip
 pip3 install ueberzug
-apt install -y nmap
-apt install -y vlc
-apt install -y git
-apt install -y htop
-apt install -y vim
-apt install -y neovim
-apt install -y redshift
-apt install -x qbittorrent
+apt install -y nmap # nmap
+apt install -y vlc # vlc player
+apt install -y git # git client
+apt install -y htop # Ressources manager
+apt install -y vim # VIM 
+apt install -y neovim # nvim
+apt install -y redshift # Luminosité reductor
+apt install -x qbittorrent # Torrent client
 apt install -y wget
-apt install -y gufw
-apt install -y qcalc
-apt install -y cfdisk
-apt install -y firefox-esr
-apt install -y vscodium
-apt install -y atril
-apt install -y ssh
-apt install -y sshfs
-apt install -y pyp
-apt install -y curl
-apt install -y ranger
-apt install -y mc
-apt install -y cmus
-apt install -y lynx
-apt install -y lynis
-apt install -y libmtp-common gvfs-backends gvfs-fuse
+apt install -y gufw # GUI firewall
+apt install -y qcalc # CLI calc
+apt install -y cfdisk # CLI Disk formater etc
+apt install -y firefox-esr # Web browser
+apt install -y vscodium # Code editor open-source
+apt install -y atril # Lecteur PDF 
+apt install -y ssh # SSH protocol
+apt install -y sshfs # Mount File from SSH share
+apt install -y pyp # Parser text program
+apt install -y curl # library multi protocol
+apt install -y ranger # File manager ncurse
+apt install -y mc # File manager
+apt install -y cmus # CLI music player
+apt install -y lynx # CLI web browser
+apt install -y lynis # Security Audit tools
+apt install -y libmtp-common gvfs-backends gvfs-fuse # SMB and other protocol
+apt install -y ocl-icd-opencl-dev # OpenCL library for dev
 
 # Fun
 # https://github.com/bartobri/no-more-secrets
