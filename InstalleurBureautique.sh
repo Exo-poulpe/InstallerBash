@@ -42,6 +42,8 @@ apt install -y qcalc # CLI calc
 apt install -y cfdisk # CLI Disk formater etc
 apt install -y firefox-esr # Web browser
 apt install -y vscodium # Code editor open-source
+# https://github.com/microsoft/vscode-cpptools/releases // C/C++ extension
+# https://marketplace.visualstudio.com/items?itemName=herlufb.futhark // Futhark extension
 apt install -y atril # Lecteur PDF 
 apt install -y ssh # SSH protocol
 apt install -y sshfs # Mount File from SSH share
