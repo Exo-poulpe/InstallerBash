@@ -44,6 +44,7 @@ apt install -y firefox-esr # Web browser
 apt install -y vscodium # Code editor open-source
 # https://github.com/microsoft/vscode-cpptools/releases // C/C++ extension
 # https://marketplace.visualstudio.com/items?itemName=herlufb.futhark // Futhark extension
+# https://github.com/Microsoft/vscode-python // Python3 extension
 apt install -y atril # Lecteur PDF 
 apt install -y ssh # SSH protocol
 apt install -y sshfs # Mount File from SSH share
