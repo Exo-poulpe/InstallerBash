@@ -92,6 +92,8 @@ apt install -y hashid
 apt install -y sqlmap
 apt install -y crunch
 apt install -y nmap
+# https://github.com/rizinorg/cutter For reverse 
+# https://github.com/hugsy/gef For reverse
 
 
 wget https://github.com/zaproxy/zaproxy/releases/download/v2.9.0/ZAP_2_9_0.sh
